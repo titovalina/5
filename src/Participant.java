@@ -1,5 +1,3 @@
-package people;
-
 import java.util.Arrays;
 
 public class Participant {
