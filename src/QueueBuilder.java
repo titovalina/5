@@ -1,5 +1,3 @@
-package queue;
-
 import java.util.List;
 
 public class QueueBuilder {
