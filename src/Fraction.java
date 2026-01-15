@@ -1,6 +1,3 @@
-//1
-package fraction;
-
 import java.util.Objects;
 
 public class Fraction implements Fractionable {
