@@ -1,16 +1,3 @@
-import cat.Cat;
-import fraction.Fraction;
-import fraction.Fractionable;
-import list.ListMerger;
-import meow.Meowable;
-import people.Participant;
-import people.PersonNumber;
-import point.Point;
-import point.Polyline;
-import queue.QueueBuilder;
-import set.RussianLetterCounter;
-import utils.*;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -37,8 +24,8 @@ public class Main {
         f1.setDenominator(4);
         System.out.println("f1 после изменения: " + f1 + " -> " + f1.getValue());
 
-        // --- Задание 2: Кот + мяук ---
-        System.out.println("\nЗадание 2: Кот и мяук");
+        // --- Задание 2: Кот + мяу ---
+        System.out.println("\nЗадание 2: Кот и мяу");
         Cat cat = new Cat("Барсик");
         MeowCounter counter = new MeowCounter(() -> System.out.println(cat.name + ": мяу!"));
         MeowUtils.makeAllMeow(counter, counter, counter);
