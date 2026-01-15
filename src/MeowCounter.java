@@ -1,7 +1,3 @@
-package utils;
-
-import meow.Meowable;
-
 public class MeowCounter implements Meowable {
     private final Meowable original;
     private int count = 0;
