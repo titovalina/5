@@ -1,5 +1,3 @@
-package cat;
-
 public class Cat {
     public String name;
 
