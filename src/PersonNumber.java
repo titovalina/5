@@ -1,5 +1,3 @@
-package people;
-
 public class PersonNumber {
     public String name;
     public Integer number; // может быть null
