@@ -1,5 +1,3 @@
-package point;
-
 import java.util.Arrays;
 
 public class Polyline {
