@@ -1,5 +1,3 @@
-package fraction;
-
 public interface Fractionable {
     double getValue();
     void setNumerator(int numerator);
