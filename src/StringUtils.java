@@ -1,5 +1,3 @@
-package utils;
-
 public class StringUtils {
     public static String capitalize(String s) {
         if (s == null || s.isBlank()) return s;
