@@ -1,5 +1,3 @@
-package set;
-
 public class RussianLetterCounter {
     public String text;
 
